@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville");
+/* line 3, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+body {
+  background-color: #d7f4e6;
+}
+
+/* line 7, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.app {
+  display: flex;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* line 19, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: lightgray;
+  padding-right: 20px;
+  margin-bottom: 60px;
+}
+/* line 25, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.nav a {
+  background-color: lightgray;
+}
+
+/* line 30, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+ul {
+  margin-left: 0%;
+  font-family: 'Merriweather', serif;
+}
+
+/* line 35, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  background: pink;
+}
+
+/* line 43, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+a:hover {
+  background: pink;
+  color: black;
+}
+
+/* line 48, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.text-js {
+  opacity: 0;
+}
+
+/* line 51, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.cursor {
+  align-self: center;
+  display: block;
+  position: absolute;
+  height: 90%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: black;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+
+@keyframes flash {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/* line 72, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.resume-title {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  margin: 50px;
+}
+/* line 76, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.resume-title h2 {
+  background-color: pink;
+}
+/* line 79, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.resume-title a {
+  background-color: grey;
+}
+
+/* line 85, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.social-page h1 {
+  text-align: center;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

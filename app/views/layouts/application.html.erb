@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>KwSite</title>
+    <title>katywelyczko</title>
     <%= csrf_meta_tags %>
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
 
   <body>
+  <div class="nav" id="nav">
+    <a href="/">home</a>
+    <a href="/resume">resume</a>
+    <a href="/social">social</a>
+    <%= link_to "github", "https://github.com/katyjane8", target: "_blank" %>
+  </ul>
+</div>
     <%= yield %>
   </body>
 </html>

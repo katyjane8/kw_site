@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville');
+
+body {
+	background-color: #d7f4e6;
+	
+}
+.App {
+	text-align: center;
+}
+	
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row-reverse;
+  background-color:  lightgray;
+	padding-right: 20px;
+	margin-bottom: 60px;
+}
+
+ul {
+  margin-left: 0%;
+  font-family: 'Merriweather', serif;
+}
+
+a {
+  text-decoration: none;
+	color: white;
+	padding: 10px;
+}
+
+a:hover {
+	background: pink;
+	color: black;
+}
+
+.text-js{
+	opacity: 0;
+}
+.cursor{
+	align-self: center;
+  display: block;
+  position: absolute;
+  height: 90%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: black;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+.resume-title { 
+  font-family: 'Libre Baskerville', serif;
+  text-align: center; 
+  margin: 50px;
+  h2 {
+  background-color: pink;
+  }
+  a {
+    background-color: grey;
+  }
+}
+
+.social-page { 
+  h1 {
+    text-align: center;
+  }
+}

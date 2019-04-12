@@ -13,6 +13,5 @@
 //= require jquery
 //= require jquery_ujs
 //= require animation
-//= require typed
 //= require turbolinks
 //= require_tree .

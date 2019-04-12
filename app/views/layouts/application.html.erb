@@ -9,13 +9,12 @@
   </head>
 
   <body>
-  <div class="nav" id="nav">
-    <a href="/">home</a>
-    <a href="/resume">resume</a>
-    <a href="/social">social</a>
-    <%= link_to "github", "https://github.com/katyjane8", target: "_blank" %>
-  </ul>
-</div>
+    <div class="nav" id="nav">
+      <%= link_to "home", "/", data: { turbolinks: false } %>
+      <%= link_to "resume", "/resume" %>
+      <%= link_to "social", "/social" %>
+      <%= link_to "github", "https://github.com/katyjane8", target: "_blank" %>
+    </div>
     <%= yield %>
   </body>
 </html>

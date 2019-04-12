@@ -1,7 +1,3 @@
-$(document).ready(function () {
-  autoType(".type-js", 200);
-});
-
 function autoType(elementClass, typingSpeed) {
   var thhis = $(elementClass);
   thhis.css({
@@ -28,3 +24,7 @@ function autoType(elementClass, typingSpeed) {
     }
   }, 1500);
 };
+
+$(document).ready(function () {
+  autoType(".type-js", 200);
+});

@@ -28,3 +28,7 @@ function autoType(elementClass, typingSpeed) {
 $(document).ready(function () {
   autoType(".type-js", 200);
 });
+
+$(document).ready(function () {
+  autoType("home of the whopper", 200);
+});

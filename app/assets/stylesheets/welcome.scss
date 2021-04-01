@@ -102,8 +102,11 @@ a:hover {
 .social-page {
     h1 {
         text-align: center;
+        margin: 50px;
+        font-size: 3em;
     }
     a {
+        border-radius: 25px;
         margin: 20px;
     }
 }

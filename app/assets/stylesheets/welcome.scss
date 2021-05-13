@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
 body {
     background-color: #d7f4e6;
     font-family: "Libre Baskerville", serif;
@@ -16,33 +18,9 @@ body {
     color: white;
 }
 
-.nav {
-    display: flex;
-    flex-direction: row-reverse;
-    background-color: #808080;
-    padding-right: 20px;
-    margin-bottom: 60px;
-    a {
-        background-color: #808080;
-        font-family: "Libre Baskerville", serif;
-    }
-}
-
 ul {
     margin-left: 0%;
     font-family: "Merriweather", serif;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    background: pink;
-}
-
-a:hover {
-    background: pink;
-    color: black;
 }
 
 .text-js {
@@ -76,27 +54,6 @@ a:hover {
     font-family: "Libre Baskerville", serif;
     margin: 50px;
     border-bottom: dotted 1px;
-    h2 {
-        background-color: pink;
-    }
-    a {
-        background-color: grey;
-    }
-}
-
-.resume-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-auto-rows: minmax(200px, auto);
-    grid-gap: 1em;
-}
-
-.col-1 {
-    align-items: flex-start;
-}
-
-.col-2 {
-    align-items: flex-end;
 }
 
 .social-page {

@@ -3,18 +3,28 @@
   <head>
     <title>katywelyczko</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
-
   <body>
-    <div class="nav" id="nav">
-      <%= link_to "home", "/", data: { turbolinks: false } %>
-      <%= link_to "resume", "/resume" %>
-      <%= link_to "social", "/social" %>
-      <%= link_to "github", "https://github.com/katyjane8", target: "_blank" %>
-    </div>
-    <%= yield %>
-  </body>
+    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbar" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="/" class="navbar-item">home</a>
+          <a href="/resume" class="navbar-item">resume</a>
+          <a href="/social" class="navbar-item">social</a>
+          <a href="https://github.com/katyjane8" target="_blank" class="navbar-item">github</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <%= yield %>
+</body>
 </html>

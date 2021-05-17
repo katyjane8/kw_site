@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+/* line 4, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+body {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* line 8, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.app {
+  display: flex;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* line 20, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.social {
+  display: flex;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+/* line 30, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+ul {
+  margin-left: 0%;
+  font-family: "Merriweather", serif;
+}
+
+/* line 35, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.text-js {
+  opacity: 0;
+}
+
+/* line 39, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
+.cursor {
+  align-self: center;
+  display: block;
+  position: absolute;
+  height: 90%;
+  top: 0;
+  right: -5px;
+  width: 2px;
+  background-color: white;
+  z-index: 1;
+  animation: blink 0.5s none infinite alternate;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+
+
+ */
+

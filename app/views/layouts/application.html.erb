@@ -6,25 +6,24 @@
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
-  <body>
+  <body class="has-background-primary-light">
     <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
       <div class="navbar-brand">
-        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </a>
       </div>
-      <div id="navbar" class="navbar-menu">
+      <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <a href="/" class="navbar-item">home</a>
-          <a href="/resume" class="navbar-item">resume</a>
-          <a href="/social" class="navbar-item">social</a>
-          <a href="https://github.com/katyjane8" target="_blank" class="navbar-item">github</a>
+          <a class="navbar-item" href="/">home</a>
+          <a class="navbar-item" href="/resume">resume</a>
+          <a class="navbar-item" href="/social">social</a>
+          <a class="navbar-item" href="https://github.com/katyjane8" target="_blank">github</a>
         </div>
       </div>
     </nav>
-  </div>
-  <%= yield %>
-</body>
+    <%= yield %>
+  </body>
 </html>

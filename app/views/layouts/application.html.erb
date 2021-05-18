@@ -7,23 +7,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
   <body class="has-background-primary-light">
-    <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <div class="navbar-menu is-active" id="navMenu">
-        <div class="navbar-end">
-          <a class="navbar-item" href="/">home</a>
-          <a class="navbar-item" href="/resume">resume</a>
-          <a class="navbar-item" href="/social">social</a>
-          <a class="navbar-item" href="https://github.com/katyjane8" target="_blank">github</a>
-        </div>
-      </div>
-    </nav>
+    <div class="tabs has-background-primary is-centered m-0">
+      <ul>
+        <li><a href="/">home</a></li>
+        <li><a href="/resume">resume</a></li>
+        <li><a href="/social">social</a></li>
+        <li><a href="https://github.com/katyjane8" target="_blank">github</a></li>
+      </ul>
+    </div>
     <%= yield %>
   </body>
 </html>

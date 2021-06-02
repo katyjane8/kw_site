@@ -3,12 +3,13 @@
   <head>
     <title>katywelyczko</title>
     <%= csrf_meta_tags %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
   <body class="has-background-primary-light">
-    <div class="tabs has-background-primary is-large is-centered m-0">
-      <ul>
+    <div class="has-background-primary is-large is-centered m-0">
+      <ul class="navigation">
         <li><a href="/">home</a></li>
         <li><a href="/resume">resume</a></li>
         <li><a href="/social">social</a></li>

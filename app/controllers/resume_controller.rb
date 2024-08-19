@@ -1,5 +1,5 @@
 class ResumeController < ApplicationController
   def download_pdf
-    send_file "#{Rails.root}/public/kjw_resume.pdf", :disposition => 'inline', type: "application/pdf"
+    send_file "#{Rails.root}/public/kw_8.19.24", :disposition => 'inline', type: "application/pdf"
   end
 end

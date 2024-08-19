@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Merriweather|Libre+Baskerville");
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css";
+
 body {
-    background-color: #d7f4e6;
     font-family: "Libre Baskerville", serif;
 }
 
@@ -16,33 +17,19 @@ body {
     color: white;
 }
 
-.nav {
+.social {
     display: flex;
-    flex-direction: row-reverse;
-    background-color: #808080;
-    padding-right: 20px;
-    margin-bottom: 60px;
-    a {
-        background-color: #808080;
-        font-family: "Libre Baskerville", serif;
-    }
+    text-align: center;
+    min-height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 ul {
     margin-left: 0%;
     font-family: "Merriweather", serif;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    background: pink;
-}
-
-a:hover {
-    background: pink;
-    color: black;
 }
 
 .text-js {
@@ -52,7 +39,6 @@ a:hover {
 .cursor {
     align-self: center;
     display: block;
-    position: absolute;
     height: 90%;
     top: 0;
     right: -5px;
@@ -71,42 +57,21 @@ a:hover {
     }
 }
 
-.resume {
-    display: grid;
-    font-family: "Libre Baskerville", serif;
-    margin: 50px;
-    border-bottom: dotted 1px;
-    h2 {
-        background-color: pink;
+.navigation li a {
+    display: block;
+    border-bottom: 1px solid #000;
+    padding: 1em;
+    text-decoration: none;
+    color: white;
+}
+
+@media all and (min-width: 30em) {
+    .navigation li {
+        display: inline-block;
+        margin: 0 0.5em;
     }
-    a {
-        background-color: grey;
-    }
-}
-
-.resume-wrapper {
-    display: grid;
-    grid-template-columns: 2fr 2fr;
-    grid-auto-rows: minmax(200px, auto);
-    grid-gap: 1em;
-}
-
-.col-1 {
-    align-items: flex-start;
-}
-
-.col-2 {
-    align-items: flex-end;
-}
-
-.social-page {
-    h1 {
-        text-align: center;
-        margin: 50px;
-        font-size: 3em;
-    }
-    a {
-        border-radius: 25px;
-        margin: 20px;
+    .navigation li a {
+        padding: 1em 0.5em;
+        border: 0;
     }
 }

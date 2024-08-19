@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "3.0.0"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -7,7 +8,7 @@ end
 
 gem 'rails', '~> 5.1.7'
 gem 'pg'
-gem 'puma', '~> 3.7'
+gem 'puma', '~> 4.3'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'

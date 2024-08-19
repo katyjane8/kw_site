@@ -2,7 +2,18 @@
   "name": "kw_site",
   "private": true,
   "dependencies": {
-    "bulma": "^0.9.2",
-    "typeit": "^7.0.4"
+    "format": "^0.2.2"
+  },
+  "devDependencies": {
+    "eslint-config-prettier": "^9.1.0",
+    "prettier": "^3.1.0"
+  },
+  "scripts": {
+    "format": "prettier . --write"
+  },
+  "eslintConfig": {
+    "extends": [
+      "prettier"
+    ]
   }
 }

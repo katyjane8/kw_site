@@ -130,7 +130,8 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.5.0)
-    rexml (3.2.5)
+    rexml (3.3.3)
+      strscan
     rubyzip (2.3.2)
     sass (3.7.4)
       sass-listen (~> 4.0.0)
@@ -159,6 +160,7 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
+    strscan (3.1.0)
     thor (1.2.1)
     thread_safe (0.3.6)
     tilt (2.0.10)

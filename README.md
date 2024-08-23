@@ -1,2 +1,3 @@
 # personal site
-* contains resume, social links and github
+
+- contains resume, social links and github

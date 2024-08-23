@@ -33,7 +33,7 @@ body {
 /* line 30, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
 ul {
   margin-left: 0%;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
 }
 
 /* line 35, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
@@ -79,7 +79,7 @@ a:hover {
 }
 /* line 72, /Users/kathrine/personal_site/kw_site/app/assets/stylesheets/welcome.scss */
 .resume-title {
-  font-family: 'Libre Baskerville', serif;
+  font-family: "Libre Baskerville", serif;
   text-align: center;
   margin: 50px;
 }
@@ -111,4 +111,3 @@ a:hover {
 
 
  */
-
